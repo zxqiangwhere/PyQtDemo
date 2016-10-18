@@ -18,6 +18,7 @@ class Main(QtWidgets.QMainWindow):
         self.ui.mdiArea.addSubWindow(self.addwin)
         self.addwin.show()
         print('show Sub Window')
+        print('shared to github ,successful!')
 
 
 if __name__=='__main__':

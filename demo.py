@@ -17,6 +17,7 @@ class Main(QtWidgets.QMainWindow):
         self.addwin = wintestlogic.Main()
         self.ui.mdiArea.addSubWindow(self.addwin)
         self.addwin.show()
+        print('show Sub Window')
 
 
 if __name__=='__main__':

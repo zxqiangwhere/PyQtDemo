@@ -19,6 +19,7 @@ class Main(QtWidgets.QMainWindow):
         self.addwin.show()
         print('show Sub Window')
         print('shared to github ,successful!')
+        print('shared to github ,successful!')
 
 
 if __name__=='__main__':
